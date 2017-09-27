@@ -48,7 +48,7 @@ DEFINE_string(weights, "",
     "separated by ','. Cannot be set simultaneously with snapshot.");
 DEFINE_int32(iterations, 50,
     "The number of iterations to run.");
-DEFINE_string(sigint_effect, "stop",
+DEFINE_string(sigint_effect, "snapshot",
              "Optional; action to take when a SIGINT signal is received: "
               "snapshot, stop or none.");
 DEFINE_string(sighup_effect, "snapshot",
